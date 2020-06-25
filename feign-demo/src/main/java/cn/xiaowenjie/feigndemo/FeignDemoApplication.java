@@ -2,6 +2,7 @@ package cn.xiaowenjie.feigndemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
@@ -9,6 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  *
  * @author 晓风轻
  */
+@EnableFeignClients
 @SpringBootApplication
 public class FeignDemoApplication {
 
