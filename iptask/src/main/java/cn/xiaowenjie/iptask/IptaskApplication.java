@@ -6,6 +6,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * 集群环境下指定机器执行后台任务
+ * 详细见公众号
  *
  * @author 晓风轻
  */
